@@ -3,6 +3,8 @@ import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 
+from ..items import WxappItem
+
 
 class WxappSpiderSpider(CrawlSpider):
     name = 'wxapp_spider'
@@ -15,7 +17,12 @@ class WxappSpiderSpider(CrawlSpider):
     )
 
     def parse_item(self, response):
-        item = {}
         title = response.xpath("//h1[@class='ph']/text()").get()
-        print(title)
-        # return item
+        authors = response.xpath("//p[@class='authors']")
+        author = authors.xpath("./a/text()").get()
+        pub_time = authors.xpath("./span/text()").get()
+        content = response.xpath("//td[@id='article_content']//p//text()").getall()
+        content = "".join(content).strip()
+        # print('title:%s' % title, 'author:%s' % author, 'pub_time:%s' % pub_time, "content:%s" % content)
+        item = WxappItem(title=title, author=author, pub_time=pub_time, content=content)
+        yield item
