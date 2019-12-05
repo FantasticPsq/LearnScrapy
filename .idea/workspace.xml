@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35fd5d1-4a74-4c4c-8bb2-c0202c5cfbf9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scrapy_spider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scrapy_spider.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxapp/wxapp/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/wxapp/wxapp/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxapp/wxapp/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/wxapp/wxapp/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxapp/wxapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/wxapp/wxapp/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxapp/wxapp/spiders/wxapp_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/wxapp/wxapp/spiders/wxapp_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspider/duanzi.josn" beforeDir="false" afterPath="$PROJECT_DIR$/myspider/duanzi.josn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxapp/wxjc.json" beforeDir="false" afterPath="$PROJECT_DIR$/wxapp/wxjc.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,12 +26,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1U9tKN0gnCIV2DdSp6K8TdAEwxe" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\spider\scrapy_spider\baoma\aaa" />
       <recent name="D:\scrapy_spider\wxapp" />
       <recent name="D:\scrapy_spider\wxapp\wxapp" />
     </key>
@@ -48,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.start (1)">
+  <component name="RunManager" selected="Python.start (5)">
     <configuration name="start (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scrapy_spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,7 +77,51 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="start (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scrapy_spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/taobao_login" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/taobao_login/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scrapy_spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/douban_login" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/douban_login/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (4)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scrapy_spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,7 +134,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\scrapy_spider\wxapp\start.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myspider/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (5)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scrapy_spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baoma" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baoma/start.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,8 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.start (5)" />
+        <item itemvalue="Python.start (3)" />
+        <item itemvalue="Python.start (4)" />
+        <item itemvalue="Python.start (2)" />
         <item itemvalue="Python.start (1)" />
-        <item itemvalue="Python.start" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +189,13 @@
       <workItem from="1574850864647" duration="9941000" />
       <workItem from="1574863922772" duration="888000" />
       <workItem from="1575010655682" duration="4669000" />
-      <workItem from="1575015736634" duration="5564000" />
+      <workItem from="1575015736634" duration="6756000" />
+      <workItem from="1575028637627" duration="6372000" />
+      <workItem from="1575077729735" duration="1654000" />
+      <workItem from="1575082123954" duration="316000" />
+      <workItem from="1575082447554" duration="4167000" />
+      <workItem from="1575114222661" duration="1651000" />
+      <workItem from="1575162803857" duration="16988000" />
     </task>
     <servers />
   </component>
@@ -134,8 +215,17 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/myspider" />
+    </ignored-roots>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/scrapy_spider$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1575026473302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wxapp" />
+    <SUITE FILE_PATH="coverage/scrapy_spider$start__5_.coverage" NAME="start (5) Coverage Results" MODIFIED="1575194866306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/baoma" />
+    <SUITE FILE_PATH="coverage/scrapy_spider$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1575028664505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wxapp" />
+    <SUITE FILE_PATH="coverage/scrapy_spider$start__3_.coverage" NAME="start (3) Coverage Results" MODIFIED="1575114521921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/douban_login" />
     <SUITE FILE_PATH="coverage/scrapy_spider$start.coverage" NAME="start Coverage Results" MODIFIED="1575015236642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myspider" />
+    <SUITE FILE_PATH="coverage/scrapy_spider$start__4_.coverage" NAME="start (4) Coverage Results" MODIFIED="1575114494955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myspider" />
+    <SUITE FILE_PATH="coverage/scrapy_spider$start__2_.coverage" NAME="start (2) Coverage Results" MODIFIED="1575030575898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/taobao_login" />
   </component>
 </project>
